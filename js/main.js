@@ -5,6 +5,12 @@ document.querySelector("#search").addEventListener("click", resetindex);
 document.querySelector("#search").addEventListener("click", getCocktail);
 document.querySelector("#nextDrink").addEventListener("click", nextDrink);
 document.querySelector("#lastDrink").addEventListener("click", lastDrink);
+document.querySelector("input").addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("search").click();
+  }
+});
 
 function resetindex() {
   index = 0;
