@@ -8,8 +8,7 @@ body{
   display: flex;
   flex-direction: column;
   margin: 0;
-  background: rgb(75,90,199);
-  background: linear-gradient(90deg, rgba(75,90,199,1) 0%, rgba(236,96,156,1) 100%);
+  background: rgb(236, 239, 242);
 }
 
 #imgAndButton{
@@ -27,24 +26,23 @@ body{
 
 h1{
   text-align: center;
-  color: rgb(205, 221, 223);
-  background: rgb(21,2,50);
-  background: linear-gradient(90deg, rgba(21,2,50,1) 0%, rgba(60,0,26,1) 100%);
+  color: rgb(253, 253, 253);
+  background: rgb(28, 11, 14);
   margin-top: 0;
   padding: 20px 0;
 }
 
 h3 , h2{
   text-align: center;
-  margin: 20px 29%;
+  align-self: center;
 }
 h2{
   font-size: 30px;
 }
 h3{
+  width: 400px;
   background: whitesmoke;
-  border: 3px dashed gray;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 10px;
 }
 /******************************************
@@ -72,12 +70,12 @@ img{
   font-weight: 900;
 }
 #nextDrink:hover {
-  background-color: rgb(74, 88, 211); 
+  background-color: rgb(99, 35, 48);
   color: white;
 }
 
 #lastDrink:hover {
-  background-color: rgb(74, 88, 211); 
+  background-color: rgb(99, 35, 48);
   color: white;
 }
 
@@ -95,7 +93,7 @@ img{
   transition-duration: 0.4s;
 }
 #engine button:hover {
-  background-color: rgb(74, 88, 211); 
+  background-color: rgb(99, 35, 48);
   color: white;
 }
 
